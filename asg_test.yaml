@@ -389,7 +389,7 @@ Resources:
       AutoScalingGroupName: ApplicationAsg
       MinSize: '1'
       MaxSize: '5'
-      DesiredCapacity: '2'
+      DesiredCapacity: '3'
       HealthCheckGracePeriod: 300
       LaunchTemplate:
         LaunchTemplateId: !Ref AsgLaunchTemplate

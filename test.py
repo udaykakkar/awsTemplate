@@ -74,7 +74,7 @@ def cfCreateStack(client,name,templatefile,params):
             TemplateBody=get_file(templatefile), #template_object, #json.dumps(template_object),
             Parameters=params,
             DisableRollback=False,
-            TimeoutInMinutes=2
+            TimeoutInMinutes=10
         )
 
         # we expect a response, if its missing on non 200 then show response
