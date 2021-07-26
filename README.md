@@ -13,4 +13,4 @@ Ideally the tool is to create stack for now Other things to consider:
 1. Want to add update / rollback functionality
 2. Add other aws cloudformation features
 3. Test the stack security and add testing strategy
-4. Are keys required upfront ? we can automate that part
+4. Are keys required upfront ? we can automate that part , the RSA key can be generated using python
