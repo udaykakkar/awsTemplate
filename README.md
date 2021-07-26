@@ -14,3 +14,4 @@ Ideally the tool is to create stack for now Other things to consider:
 2. Add other aws cloudformation features
 3. Test the stack security and add testing strategy
 4. Are keys required upfront ? we can automate that part , the RSA key can be generated using python
+5. CI CD if someone updates the template , some tests such as template validation etc...
